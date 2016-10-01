@@ -1,0 +1,59 @@
+@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local('Source Sans Pro'),local(SourceSansPro-Regular),url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}
+
+html, body {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3399ff;
+    letter-spacing: -1px;
+
+    &:active,
+    &:visited,
+    &:hover,
+    &:link {
+        text-decoration: none;
+    }
+}
+
+input {
+    outline: none;
+}
+
+button, select {
+    color: #F8F8F8;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    box-shadow: rgb(0, 0, 0) 0px 2px 10px -6px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(76, 142, 250);
+    margin: 5px;
+    width: 100px;
+    -moz-appearance:none;
+    text-align: left;
+}
+
+h1 {
+    margin: 10px 0px;
+}
+
+h2 {
+    margin: 0px 0px 10px 0px;
+}
+
+::selection {
+    background-color: transparent;
+    color: #000;
+}
+::-moz-selection {
+    background-color: transparent;
+    color: #000;
+}
